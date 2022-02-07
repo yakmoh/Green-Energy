@@ -5,9 +5,9 @@ Solar energy is the cleanest and most available renewable energy source. The Mod
 
 The aim of this repository is to design and construct an off grid solar energy system. The systen is broken into the following modules;
 1. Oscillator Module: 
-          A. oscBoard Complited, this board has fully been tested on 12v battery system. 
-             Testing on 24V system is ongoing. for more infomation please dowload the manual DOC.rar
-          B. EGS002 proMAX 1, coming soon
+          (a). oscBoard Complited, this board has fully been tested on 12v battery system. 
+              Testing on 24V system is ongoing. for more infomation please dowload the manual DOC.rar
+          (b). EGS002 proMAX 1, coming soon
      
 2. Power Inverter Module: Tested.
 3. Display Module: Testes.
