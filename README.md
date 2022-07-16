@@ -17,7 +17,7 @@ The aim of this repository is to design and construct an off grid solar energy s
 6. Solar Charge Controller Module: Coming soon.
 #
 
-# EGS002 proMAX (stm32f203 version)
+# EGS002 proMAX (stm32f103 version)
 
 The EGS002 proMAX module generates the sinusoidal pulse width modulated signal.
 
@@ -44,8 +44,8 @@ Boost converter frequency is 50KHz
 Unipolar Modulation
 Constant current CC and constant voltage CV charging (bulk, absorption and float)
 Charging control algorithm (P controller)
-Inverter output volage control algorithm (PI controller)
-Short circuit protection
+Inverter output voltage control algorithm (PI controller)
+Short circuit protection (not tested yet)
 Mains over voltage and under voltage protection
 Inverter over voltage and under voltage cut-off
 Serial LCD interface (modbus RTU)
