@@ -15,17 +15,21 @@ The aim of this repository is to design and construct an off grid solar energy s
 4. Current Sensor Module: Tested.
 5. Power Supply Module: Tested.
 6. Solar Charge Controller Module: Coming soon.
+#
 
+# EGS002 proMAX (stm32f203 version)
+
+The EGS002 proMAX module generates the sinusoidal pulse width modulated signal.
 
 ![image](https://user-images.githubusercontent.com/10567566/179360064-9f22c057-112e-46ec-b4c9-f8ef385ee254.png)
 
                                    Fig1 EGS002 proMax front view
-                                   
+#                                   
 ![image](https://user-images.githubusercontent.com/10567566/179359965-8ca474b1-2b20-4ba8-ae52-40b16689451f.png)
 
                                     Fig2 EGS002 proMax back view
-
-Main Controllers
+#
+# Main Controllers
 
 EG8010 Chip: Generates the fundamental frequency of 50Hz for the inverter using sinusoidal pulse width modulation, with a modulation frequency of 23.4Khz.
 
@@ -33,7 +37,7 @@ STM32F103: Generates 50KHz for the boost converter, and also provides all the co
 
 PZEM004T: Provides all metering function for power management.
 
-Specification
+# Specification
 Fundamental frequency is 50Hz
 Modulation frequency is 23.4KHz
 Boost converter frequency is 50KHz
@@ -46,9 +50,7 @@ Mains over voltage and under voltage protection
 Inverter over voltage and under voltage cut-off
 Serial LCD interface (modbus RTU)
 
-
-
-User interface
+# User interface
 1.	TWI interface
 2.	Serial LCD interface (using UART or Modbus RTU)
 3.	Power ON/OFF switch interface
