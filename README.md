@@ -20,7 +20,10 @@ The aim of this repository is to design and construct an off grid solar inverter
 6. Solar Charge Controller Module: Coming soon.
 #
 
-# EGS002 proMAX (stm32f103 version)
+
+# 1.0 OSCILATOR / CONTROLLER BOARD
+
+# 1.1 EGS002 proMAX (stm32f103 version)
 
 The EGS002 proMAX module generates the sinusoidal pulse width modulated signal.
 
@@ -64,9 +67,30 @@ Serial LCD interface (modbus RTU)
 
  for more infomation on the EGS002 proMAX, please download the manual 
 
+# 2.0 MODBUS RTU DISPLAY 
+
+# 2.1 LCD 20X4 
+![modbus LCD 20X4](https://user-images.githubusercontent.com/10567566/179361122-a421a52c-c0ea-41c4-9047-653224a37eed.png)
+#
 
 
+# 3.0 CURRENT SENSOR BOARD 
 
+# 3.1 ACS758 200A module 
+![image](https://user-images.githubusercontent.com/10567566/179361096-ceef462d-aa66-4501-96e7-fec9bdf6242c.png)
+#
+
+# 3.2 INA282 module 
+
+#
+
+# 3.3 Short circuit module
+#
+
+# 4.0 PZEM004T 100A BOARD
+![PZEM004T](https://user-images.githubusercontent.com/10567566/179361354-1cf5e786-5747-41f2-82ad-4491fac4e1cc.jpg)
+
+#
 
 
 
